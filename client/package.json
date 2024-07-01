@@ -1,0 +1,74 @@
+{
+  "name": "superadmin",
+  "homepage": "https://triphog.net/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@devexpress/dx-react-core": "^4.0.8",
+    "@devexpress/dx-react-scheduler": "^4.0.8",
+    "@devexpress/dx-react-scheduler-material-ui": "^4.0.8",
+    "@fullcalendar/core": "^6.1.14",
+    "@fullcalendar/daygrid": "^6.1.14",
+    "@fullcalendar/interaction": "^6.1.14",
+    "@fullcalendar/react": "^6.1.14",
+    "@fullcalendar/timegrid": "^6.1.14",
+    "@material-ui/core": "^4.12.4",
+    "@react-oauth/google": "^0.12.1",
+    "@smastrom/react-rating": "^1.5.0",
+    "@syncfusion/ej2-react-schedule": "^26.1.35",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "date-fns": "^3.6.0",
+    "gapi-script": "^1.2.0",
+    "leaflet": "^1.9.4",
+    "moment": "^2.30.1",
+    "react": "^18.3.1",
+    "react-big-calendar": "^1.13.0",
+    "react-bootstrap": "^2.10.3",
+    "react-calendar": "^5.0.0",
+    "react-date-range": "^2.0.1",
+    "react-dom": "^18.3.1",
+    "react-export-table-to-excel": "^1.0.6",
+    "react-google-login": "^5.2.2",
+    "react-icons": "^5.2.1",
+    "react-leaflet": "^4.2.1",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.12.7",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "host": "react-scripts start --host 0.0.0.0 --port 3000",
+    "build:prod": "cross-env NODE_OPTIONS=--max-old-space-size=4096 react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "tailwindcss": "^3.4.3"
+  }
+}

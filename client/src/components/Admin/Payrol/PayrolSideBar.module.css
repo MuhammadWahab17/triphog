@@ -1,0 +1,23 @@
+.customcheckbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 18px;
+  width: 18px;
+  background-color: #30325e;
+  border: 2px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.customcheckbox:checked {
+}
+
+.customcheckbox:checked::after {
+  content: "\2713";
+  display: block;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  line-height: 16px;
+}

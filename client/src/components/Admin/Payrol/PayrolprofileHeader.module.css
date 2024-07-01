@@ -1,0 +1,6 @@
+.active {
+  @apply text-[white] bg-deepBlue px-[40px] py-[3px] rounded-[7px]  my-[1px] mx-[1px] cursor-pointer;
+}
+.notactive {
+  @apply text-deepBlue px-[40px]  py-[3px] rounded-[7px]  my-[1px] mx-[1px] cursor-pointer;
+}

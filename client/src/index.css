@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://unpkg.com/leaflet@1.9.4/dist/leaflet.css");
+
+@import url("https://fonts.googleapis.com/css?family=Cabin");
+
+@import "react-date-range/dist/styles.css";
+@import "react-date-range/dist/theme/default.css";
+body {
+  font-family: "Cabin", sans-serif;
+}
+@import "@smastrom/react-rating/style.css";
+.active {
+  color: white !important;
+  @apply h-[52px] w-[52px] bg-[#30325E] rounded-full
+    text-[24px] py-[15px] px-[14px];
+}
+/* In your main CSS file or App.css */
+@import "react-big-calendar/lib/css/react-big-calendar.css";
+
+.dx-scheduler-work-space-week .dx-scheduler-header-panel-cell,
+.dx-scheduler-work-space-work-week .dx-scheduler-header-panel-cell {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.dx-scheduler-work-space .dx-scheduler-header-panel-cell .name {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.dx-scheduler-work-space .dx-scheduler-header-panel-cell .number {
+  font-size: 15px;
+  line-height: 15px;
+}
+.css-1bzx5rb-MuiTableCell-root .Cell-dayOfWeek {
+  font-family: "Cabin", "sans-serif" !important;
+  font-weight: bold;
+  font-size: 1rem !important;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+  margin: 0;
+  padding: 8px;
+  padding-bottom: 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+@media (min-width: 600px) {
+  .css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+    min-height: auto;
+    font-family: "Cabin", "sans-serif" !important;
+  }
+}
+.css-1675apn-MuiTableCell-root .Cell-dayOfMonth {
+  font-family: "Cabin", "sans-serif" !important;
+  font-weight: bold !important;
+  font-size: 1.5rem !important;
+}
+.css-1675apn-MuiTableCell-root .Cell-dayOfWeek {
+  font-family: "Cabin", "sans-serif" !important;
+  font-weight: bold !important;
+}
+.css-1fbp63r .Label-text {
+  font-family: "Cabin", "sans-serif" !important;
+  font-weight: bold !important;
+  font-size: 1rem !important;
+}
+.css-11ngvp6 .Content-lens {
+  color: #30325e !important;
+}
+.css-11ngvp6 .Content-dateAndTitle {
+  line-height: 1 !important;
+  font-family: "Cabin" !important;
+}
+/* .css-nupfgw-MuiGrid-root.Layout-root {
+  display: none !important;
+} */
+.css-vr9er9-MuiModal-root-MuiDrawer-root .Overlay-halfSize {
+  height: 100% !important;
+  width: 450px !important;
+}
